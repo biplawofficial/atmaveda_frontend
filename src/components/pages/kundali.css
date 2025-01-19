@@ -1,0 +1,72 @@
+.kundali-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .kundali-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;}
+    .chat.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .svg-container {
+    margin-top: 20px;
+  }
+  
+  .svg-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  svg {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
